@@ -1,0 +1,14 @@
+.char{
+    display: flex;
+    flex-wrap: nowrap;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+}
+.charcter_head {
+    display: block;
+}
+.charcter_spec {
+    display: block;
+}
+.charcter_plus {
+    display: block;
+}

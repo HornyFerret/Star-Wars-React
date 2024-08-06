@@ -1,0 +1,10 @@
+.header {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(186, 173, 236);
+}
+
+.header_name {
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-size: 50px;
+}
