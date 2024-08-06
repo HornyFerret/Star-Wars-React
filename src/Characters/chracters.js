@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import {char, chars, charcter_head, charcter_plus, charcter_spec} from './characters.module.css';
+import {chars,  all} from './characters.module.css';
 import Person from '../Person/person'
 
 function Charcters() {
@@ -27,7 +27,7 @@ function Charcters() {
     }
 
     return (<>
-    <section className = {chars}>
+    <section className = {all}>
         {
             characters.map(character => {
                 return (
